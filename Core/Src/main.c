@@ -18,7 +18,7 @@
 
 #include "main.h"
 #include "WM.h"
-UART_HandleTypeDef huart1;
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -35,8 +35,7 @@ void BSP_Background(void);
 extern void MainTask(void);
 static void CPU_CACHE_Enable(void);
 
-static void MX_GPIO_Init(void);
-static void MX_USART1_UART_Init(void);
+
 /* Private functions ---------------------------------------------------------*/
 
 /**
